@@ -1,4 +1,5 @@
 function B = column_removal(A,n)
-A(:,n) = [];
-B = A;
+%% Problem 19. Swap the first and last columns
+  A(:,n) = [];
+  B = A;
 end

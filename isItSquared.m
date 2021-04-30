@@ -1,3 +1,4 @@
 function b = isItSquared(a)
-b = nnz(a.^2 == a.') >= 1;
+%% Problem 23. Finding Perfect Squares
+  b = nnz(a.^2 == a.') >= 1;
 end

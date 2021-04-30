@@ -1,4 +1,5 @@
 function s2 = refcn2(s1)
+%% Problem 13. Remove all the consonants
   consonants = strcat('[bcdfghjklmnpqrstvwxyz',upper('bcdfghjklmnpqrstvwxyz]'));
   consonant_index = regexp(s1,consonants);
   s2 = [];

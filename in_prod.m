@@ -1,4 +1,5 @@
 function z = in_prod(x,y)
+%%  Problem 44950. Calculate Inner
   if (length(x) == size(y,1))
     z = x*y;
   else

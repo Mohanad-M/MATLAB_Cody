@@ -1,4 +1,5 @@
 function c = collatz(n)
+%% Problem 21. Return the 3n+1 sequence for n
   c = n;
   ii = 1;
   while (c(ii) ~= 1)

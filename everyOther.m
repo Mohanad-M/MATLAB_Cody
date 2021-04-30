@@ -1,4 +1,5 @@
 function y = everyOther(x)
-    idx = 1:2:size(x,2);
-    y = x(idx);
+%% Problem 6. Select every other element
+  idx = 1:2:size(x,2);
+  y = x(idx);
 end
